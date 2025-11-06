@@ -44,6 +44,15 @@
     border: none;
     border-radius: 6px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 13px;
+}
+
+.login-card button:hover {
+    background-color: #026ead;
+}
+
+.login-card button:active {
+    transform: scale(0.98);
 }
