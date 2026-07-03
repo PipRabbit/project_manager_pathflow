@@ -1,11 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-    // 🔥 SAFE READ (prevents null crash + parsing issues)
     const username = JSON.parse(localStorage.getItem("username") || "null");
 
     console.log("DASHBOARD USER:", username);
 
-    // ❌ ONLY redirect if truly missing
     if (username === null) {
         window.location.replace("index.html");
         return;

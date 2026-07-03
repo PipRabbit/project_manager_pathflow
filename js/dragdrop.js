@@ -33,6 +33,5 @@ document.addEventListener("drop", (e) => {
 
     saveBoards(boards);
 
-    // refresh board safely
     location.reload();
 });

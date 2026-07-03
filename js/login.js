@@ -10,7 +10,6 @@ loginBtn.addEventListener("click", () => {
         return;
     }
 
-    // 🔥 IMPORTANT: force write BEFORE redirect
     localStorage.setItem("username", JSON.stringify(username));
 
     console.log("LOGIN SET:", localStorage.getItem("username"));
