@@ -1,0 +1,143 @@
+header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    background:#005a8d;
+
+    color:white;
+
+    padding:20px 40px;
+
+}
+
+.logo h1{
+
+    font-size:32px;
+
+}
+
+.user-area{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:20px;
+
+}
+
+.user-area button{
+
+    background:white;
+
+    color:#005a8d;
+
+    border:none;
+
+    padding:10px 20px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+
+}
+
+.toolbar{
+
+    padding:30px 50px;
+
+}
+
+.toolbar button{
+
+    background:#0084d6;
+
+    color:white;
+
+    border:none;
+
+    padding:14px 22px;
+
+    border-radius:10px;
+
+    font-size:16px;
+
+}
+
+.boards{
+
+    padding:0 50px 50px;
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fill,minmax(250px,1fr));
+
+    gap:25px;
+
+}
+
+.board-card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+
+}
+
+.board-card:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.board-card h2{
+
+    color:#005a8d;
+
+    margin-bottom:20px;
+
+}
+
+.board-buttons{
+
+    display:flex;
+
+    gap:10px;
+
+}
+
+.board-buttons button{
+
+    flex:1;
+
+    border:none;
+
+    padding:10px;
+
+    border-radius:8px;
+
+    color:white;
+
+}
+
+.openBtn{
+
+    background:#0084d6;
+
+}
+
+.deleteBtn{
+
+    background:#d9534f;
+
+}
